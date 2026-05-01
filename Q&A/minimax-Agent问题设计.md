@@ -111,6 +111,7 @@ Q16. 如何给 Agent 加一个"工具使用统计"功能，记录每个工具被
 agent.py L395-L430
  的工具执行前后加计时，在 Agent.__init__ 里初始化一个 tool_stats: dict 字典。
 
+## 暂定不修改
 Q17. 如何让 Agent 支持"流式输出"（streaming），让用户看到 LLM 逐字打印而不是等待完整响应？
 切入点：修改 
 anthropic_client.py L65-L78
